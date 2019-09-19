@@ -5,7 +5,7 @@ body
     margin-top: 150px;
 }
 
-h1
+.banner h1
 {
     padding-left: 20px;
     position: fixed;
@@ -25,12 +25,12 @@ h1
     align-items: center;
 }
 
-h1 *
+.banner h1 *
 {
     display: inline;
 }
 
-nav
+.banner nav
 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -38,7 +38,7 @@ nav
 
 }
 
-h2
+.banner h2
 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -46,15 +46,25 @@ h2
     display: flex;
 }
 
-ul li
+.banner ul li
 {
     list-style: none;
 }
 
-ul li a
+.banner ul li a
 {
+    /* color: #ffffff; */
     text-decoration: none;
     margin: 0 2px;
+}
+
+h2
+{
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
 
 p
@@ -62,5 +72,6 @@ p
     color: #acacac;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 15px;
 }
+
